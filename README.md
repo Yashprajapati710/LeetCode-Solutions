@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-A collection of my JavaScript solutions to LeetCode problems. This repository is part of my Data Structures & Algorithms (DSA) journey and is maintained to improve problem-solving skills and prepare for Software Engineering interviews.
+A collection of my JavaScript solutions to LeetCode problems. This repository documents my Data Structures & Algorithms (DSA) journey and helps me improve problem-solving skills while preparing for Software Engineering interviews.
 
 ---
 
@@ -20,6 +20,7 @@ LeetCode-Solutions/
 │── README.md
 │── 1-Two-Sum.js
 │── 26-Remove-Duplicates-from-Sorted-Array.js
+│── 27-Remove-Element.js
 │── 121-Best-Time-to-Buy-and-Sell-Stock.js
 │── 1929-Concatenation-of-Array.js
 │── 217-Contains-Duplicate.js
@@ -33,6 +34,7 @@ LeetCode-Solutions/
 |------------:|------------------------------------------|------------|
 | 1 | Two Sum | Easy |
 | 26 | Remove Duplicates from Sorted Array | Easy |
+| 27 | Remove Element | Easy |
 | 121 | Best Time to Buy and Sell Stock | Easy |
 | 217 | Contains Duplicate | Easy |
 | 1929 | Concatenation of Array | Easy |
@@ -42,10 +44,10 @@ LeetCode-Solutions/
 ## Topics Covered
 
 - Arrays
-- Hash Set
 - Two Pointers
+- Hash Set
 - Time Complexity Analysis
-- Brute Force
+- Brute Force Approach
 - Optimized Solutions
 
 ---
@@ -56,7 +58,7 @@ LeetCode-Solutions/
 - Strengthen Data Structures & Algorithms concepts.
 - Improve problem-solving and analytical thinking.
 - Prepare for Software Engineering interviews.
-- Maintain a professional GitHub coding portfolio.
+- Build a professional GitHub coding portfolio.
 
 ---
 
@@ -64,9 +66,10 @@ LeetCode-Solutions/
 
 | Category | Status |
 |----------|--------|
-| Total Problems Solved | 5 |
+| Total Problems Solved | 6 |
 | Language | JavaScript (ES6) |
 | Difficulty Covered | Easy |
+| Latest Problem | 27 - Remove Element |
 
 ---
 
