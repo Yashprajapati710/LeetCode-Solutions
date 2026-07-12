@@ -21,9 +21,11 @@ LeetCode-Solutions/
 │── 1-Two-Sum.js
 │── 26-Remove-Duplicates-from-Sorted-Array.js
 │── 27-Remove-Element.js
+│── 88-Merge-Sorted-Array.js
 │── 121-Best-Time-to-Buy-and-Sell-Stock.js
 │── 1929-Concatenation-of-Array.js
 │── 217-Contains-Duplicate.js
+│── 283-Move-Zeroes.js
 ```
 
 ---
@@ -31,12 +33,14 @@ LeetCode-Solutions/
 ## Solved Problems
 
 | Problem No. | Problem Name | Difficulty |
-|------------:|------------------------------------------|------------|
+|------------:|-----------------------------------------------|------------|
 | 1 | Two Sum | Easy |
 | 26 | Remove Duplicates from Sorted Array | Easy |
 | 27 | Remove Element | Easy |
+| 88 | Merge Sorted Array | Easy |
 | 121 | Best Time to Buy and Sell Stock | Easy |
 | 217 | Contains Duplicate | Easy |
+| 283 | Move Zeroes | Easy |
 | 1929 | Concatenation of Array | Easy |
 
 ---
@@ -45,7 +49,9 @@ LeetCode-Solutions/
 
 - Arrays
 - Two Pointers
+- Three Pointers
 - Hash Set
+- In-place Array Modification
 - Time Complexity Analysis
 - Brute Force Approach
 - Optimized Solutions
@@ -66,10 +72,10 @@ LeetCode-Solutions/
 
 | Category | Status |
 |----------|--------|
-| Total Problems Solved | 6 |
+| Total Problems Solved | 8 |
 | Language | JavaScript (ES6) |
 | Difficulty Covered | Easy |
-| Latest Problem | 27 - Remove Element |
+| Latest Problem | 88 - Merge Sorted Array |
 
 ---
 
