@@ -1,0 +1,19 @@
+/**
+ * @param {string} s
+ * @return {string}
+ */
+var makeGood = function (s) {
+    let stack = [];
+
+    for (let char of s) {
+        if (stack.length > 0 && stack[stack.length - 1] !== char && stack[stack.length - 1].toLowerCase() === char.toLowerCase()) {
+
+            stack.pop();
+        }
+        else {
+            stack.push(char);
+        }
+    }
+    return stack.join("");
+
+};
