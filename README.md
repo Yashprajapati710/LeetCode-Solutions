@@ -6,10 +6,10 @@ A collection of my **JavaScript (ES6+)** solutions to LeetCode problems. This re
 
 ## 🛠️ Technology Stack
 
-![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![LeetCode](https://img.shields.io/badge/LeetCode-Problem%20Solving-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)
-![Git](https://img.shields.io/badge/Git-Version%20Control-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge\&logo=javascript\&logoColor=black)
+![LeetCode](https://img.shields.io/badge/LeetCode-Problem%20Solving-FFA116?style=for-the-badge\&logo=leetcode\&logoColor=white)
+![Git](https://img.shields.io/badge/Git-Version%20Control-F05032?style=for-the-badge\&logo=git\&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge\&logo=github\&logoColor=white)
 
 ---
 
@@ -23,30 +23,46 @@ LeetCode-Solutions/
 ├── Easy/
 │   ├── 1-Two-Sum.js
 │   ├── 9_Palindrome_Number.js
+│   ├── 13_Roman_to_Integer.js
 │   ├── 14_Longest_Common_Prefix.js
 │   ├── 20_Valid_Parantheses.js
 │   ├── 26_Remove_Duplicate_from_Sorted_Array.js
 │   ├── 27_Remove_Element.js
+│   ├── 28_Find_the_Index_of_the_First_Occurrence_in_a_String.js
 │   ├── 35_Search_Insert_Position.js
 │   ├── 53_Maximum_Subarray.js
 │   ├── 58_Length_Of_Last_Word.js
 │   ├── 66_Plus_one.js
+│   ├── 67_Add_Binary.js
 │   ├── 88_Merge_Sorted_Array.js
+│   ├── 108_Convert_Sorted_Array_to_Binary_Search_Tree.js
+│   ├── 118_Pascals_Triangle.js
+│   ├── 119_Pascals_Triangle_II.js
 │   ├── 121_Best_Time_To_Buy_And_Sell_Stock.js
 │   ├── 125_Valid_Palindrome.js
 │   ├── 136_Single_Number.js
+│   ├── 168_Excel_Sheet_Column_Title.js
 │   ├── 169_Majority_Element.js
+│   ├── 171_Excel_Sheet_Column_Number.js
+│   ├── 205_Isomorphic_Strings.js
 │   ├── 217_Contains_Duplicate.js
+│   ├── 219_Contains_Duplicate_II.js
 │   ├── 228_Summary_Ranges.js
 │   ├── 242_Valid_Anagram.js
+│   ├── 257_Binary_Tree_Paths.js
 │   ├── 268_Missing_Number.js
 │   ├── 283_Move_Zeroes.js
+│   ├── 290_Word_Pattern.js
+│   ├── 303_Range_Sum_Query_Immutable.js
 │   ├── 344_Reverse_String.js
+│   ├── 345_Reverse_Vowels_of_a_String.js
 │   ├── 349_Intersection_Of_Two_Array.js
+│   ├── 350_Intersection_of_Two_Arrays_II.js
 │   ├── 383_Ransom_Note.js
 │   ├── 392_Is_Subsequence.js
 │   ├── 414_Third_Maximum_Number.js
 │   ├── 448_Find_All_Number_Disappeared_In_an_Array.js
+│   ├── 463_Island_Perimeter.js
 │   ├── 485_Max_Consecutive_Ones.js
 │   ├── 509_Fibonacci_Number.js
 │   ├── 561_Array_Partition.js
@@ -101,7 +117,7 @@ LeetCode-Solutions/
 │   └── 167_Two_Sum_II_Input_Array_Is_Sorted.js
 │
 └── Hard/
-│   └── 84_Largest_Rectangle_In_Histogram.js
+    └── 84_Largest_Rectangle_In_Histogram.js
 ```
 
 ---
@@ -110,164 +126,185 @@ LeetCode-Solutions/
 
 ## Easy
 
-| # | Problem | Difficulty |
-|---:|-----------------------------------------------|:---------:|
-| 1 | Two Sum | Easy |
-| 9 | Palindrome Number | Easy |
-| 14 | Longest Common Prefix | Easy |
-| 20 | Valid Parentheses | Easy |
-| 26 | Remove Duplicates from Sorted Array | Easy |
-| 27 | Remove Element | Easy |
-| 35 | Search Insert Position | Easy |
-| 53 | Maximum Subarray | Easy |
-| 58 | Length of Last Word | Easy |
-| 66 | Plus One | Easy |
-| 88 | Merge Sorted Array | Easy |
-| 121 | Best Time to Buy and Sell Stock | Easy |
-| 125 | Valid Palindrome | Easy |
-| 136 | Single Number | Easy |
-| 169 | Majority Element | Easy |
-| 217 | Contains Duplicate | Easy |
-| 228 | Summary Ranges | Easy |
-| 242 | Valid Anagram | Easy |
-| 268 | Missing Number | Easy |
-| 283 | Move Zeroes | Easy |
-| 344 | Reverse String | Easy |
-| 349 | Intersection of Two Arrays | Easy |
-| 383 | Ransom Note | Easy |
-| 392 | Is Subsequence | Easy |
-| 414 | Third Maximum Number | Easy |
-| 448 | Find All Numbers Disappeared in an Array | Easy |
-| 485 | Max Consecutive Ones | Easy |
-| 509 | Fibonacci Number | Easy |
-| 561 | Array Partition | Easy |
-| 605 | Can Place Flowers | Easy |
-| 628 | Maximum Product of Three Numbers | Easy |
-| 643 | Maximum Average Subarray I | Easy |
-| 724 | Find Pivot Index | Easy |
-| 905 | Sort Array By Parity | Easy |
-| 977 | Squares of a Sorted Array | Easy |
-| 1089 | Duplicate Zeros | Easy |
-| 1207 | Unique Number of Occurrences | Easy |
-| 1295 | Find Numbers with Even Number of Digits | Easy |
-| 1365 | How Many Numbers Are Smaller Than the Current Number | Easy |
-| 1389 | Create Target Array in the Given Order | Easy |
-| 1431 | Kids With the Greatest Number of Candies | Easy |
-| 1480 | Running Sum of 1d Array | Easy |
-| 1512 | Number of Good Pairs | Easy |
-| 1528 | Shuffle String | Easy |
-| 1572 | Matrix Diagonal Sum | Easy |
-| 1672 | Richest Customer Wealth | Easy |
-| 1732 | Find the Highest Altitude | Easy |
-| 1773 | Count Items Matching a Rule | Easy |
-| 1822 | Sign of the Product of an Array | Easy |
-| 1832 | Check if the Sentence Is Pangram | Easy |
-| 1920 | Build Array from Permutation | Easy |
-| 1929 | Concatenation of Array | Easy |
-| 2011 | Final Value of Variable After Performing Operations | Easy |
-| 2114 | Maximum Number of Words Found in Sentences | Easy |
-| 2413 | Smallest Even Multiple | Easy |
-| 2469 | Convert the Temperature | Easy |
-| 2574 | Left and Right Sum Differences | Easy |
-| 2710 | Remove Trailing Zeros From a String | Easy |
-| 2824 | Count Pairs Whose Sum is Less than Target | Easy |
-| 2942 | Find Words Containing Character | Easy |
-| 3024 | Type of Triangle | Easy |
-| 3110 | Score of a String | Easy |
-| 3120 | Count the Number of Special Characters I | Easy |
-| 3131 | Find the Integer Added to Array I | Easy |
-| 3151 | Special Array I | Easy |
-| 3162 | Find the Number of Good Pairs I | Easy |
-| 3174 | Clear Digits | Easy |
-| 3190 | Find Minimum Operations to Make All Elements Divisible by Three | Easy |
-| 3206 | Alternating Groups I | Easy |
-| 3280 | Convert Date to Binary | Easy |
-| 3442 | Maximum Difference Between Even and Odd Frequency I | Easy |
-| 3452 | Sum of Good Numbers | Easy |
+|    # | Problem                                                         | Difficulty |
+| ---: | --------------------------------------------------------------- | :--------: |
+|    1 | Two Sum                                                         |    Easy    |
+|    9 | Palindrome Number                                               |    Easy    |
+|   13 | Roman to Integer                                                |    Easy    |
+|   14 | Longest Common Prefix                                           |    Easy    |
+|   20 | Valid Parentheses                                               |    Easy    |
+|   26 | Remove Duplicates from Sorted Array                             |    Easy    |
+|   27 | Remove Element                                                  |    Easy    |
+|   28 | Find the Index of the First Occurrence in a String              |    Easy    |
+|   35 | Search Insert Position                                          |    Easy    |
+|   53 | Maximum Subarray                                                |    Easy    |
+|   58 | Length of Last Word                                             |    Easy    |
+|   66 | Plus One                                                        |    Easy    |
+|   67 | Add Binary                                                      |    Easy    |
+|   88 | Merge Sorted Array                                              |    Easy    |
+|  108 | Convert Sorted Array to Binary Search Tree                      |    Easy    |
+|  118 | Pascal's Triangle                                               |    Easy    |
+|  119 | Pascal's Triangle II                                            |    Easy    |
+|  121 | Best Time to Buy and Sell Stock                                 |    Easy    |
+|  125 | Valid Palindrome                                                |    Easy    |
+|  136 | Single Number                                                   |    Easy    |
+|  168 | Excel Sheet Column Title                                        |    Easy    |
+|  169 | Majority Element                                                |    Easy    |
+|  171 | Excel Sheet Column Number                                       |    Easy    |
+|  205 | Isomorphic Strings                                              |    Easy    |
+|  217 | Contains Duplicate                                              |    Easy    |
+|  219 | Contains Duplicate II                                           |    Easy    |
+|  228 | Summary Ranges                                                  |    Easy    |
+|  242 | Valid Anagram                                                   |    Easy    |
+|  257 | Binary Tree Paths                                               |    Easy    |
+|  268 | Missing Number                                                  |    Easy    |
+|  283 | Move Zeroes                                                     |    Easy    |
+|  290 | Word Pattern                                                    |    Easy    |
+|  303 | Range Sum Query - Immutable                                     |    Easy    |
+|  344 | Reverse String                                                  |    Easy    |
+|  345 | Reverse Vowels of a String                                      |    Easy    |
+|  349 | Intersection of Two Arrays                                      |    Easy    |
+|  350 | Intersection of Two Arrays II                                   |    Easy    |
+|  383 | Ransom Note                                                     |    Easy    |
+|  392 | Is Subsequence                                                  |    Easy    |
+|  414 | Third Maximum Number                                            |    Easy    |
+|  448 | Find All Numbers Disappeared in an Array                        |    Easy    |
+|  463 | Island Perimeter                                                |    Easy    |
+|  485 | Max Consecutive Ones                                            |    Easy    |
+|  509 | Fibonacci Number                                                |    Easy    |
+|  561 | Array Partition                                                 |    Easy    |
+|  605 | Can Place Flowers                                               |    Easy    |
+|  628 | Maximum Product of Three Numbers                                |    Easy    |
+|  643 | Maximum Average Subarray I                                      |    Easy    |
+|  724 | Find Pivot Index                                                |    Easy    |
+|  905 | Sort Array By Parity                                            |    Easy    |
+|  977 | Squares of a Sorted Array                                       |    Easy    |
+| 1089 | Duplicate Zeros                                                 |    Easy    |
+| 1207 | Unique Number of Occurrences                                    |    Easy    |
+| 1295 | Find Numbers with Even Number of Digits                         |    Easy    |
+| 1365 | How Many Numbers Are Smaller Than the Current Number            |    Easy    |
+| 1389 | Create Target Array in the Given Order                          |    Easy    |
+| 1431 | Kids With the Greatest Number of Candies                        |    Easy    |
+| 1480 | Running Sum of 1d Array                                         |    Easy    |
+| 1512 | Number of Good Pairs                                            |    Easy    |
+| 1528 | Shuffle String                                                  |    Easy    |
+| 1572 | Matrix Diagonal Sum                                             |    Easy    |
+| 1672 | Richest Customer Wealth                                         |    Easy    |
+| 1732 | Find the Highest Altitude                                       |    Easy    |
+| 1773 | Count Items Matching a Rule                                     |    Easy    |
+| 1822 | Sign of the Product of an Array                                 |    Easy    |
+| 1832 | Check if the Sentence Is Pangram                                |    Easy    |
+| 1920 | Build Array from Permutation                                    |    Easy    |
+| 1929 | Concatenation of Array                                          |    Easy    |
+| 2011 | Final Value of Variable After Performing Operations             |    Easy    |
+| 2114 | Maximum Number of Words Found in Sentences                      |    Easy    |
+| 2413 | Smallest Even Multiple                                          |    Easy    |
+| 2469 | Convert the Temperature                                         |    Easy    |
+| 2574 | Left and Right Sum Differences                                  |    Easy    |
+| 2710 | Remove Trailing Zeros From a String                             |    Easy    |
+| 2824 | Count Pairs Whose Sum is Less than Target                       |    Easy    |
+| 2942 | Find Words Containing Character                                 |    Easy    |
+| 3024 | Type of Triangle                                                |    Easy    |
+| 3110 | Score of a String                                               |    Easy    |
+| 3120 | Count the Number of Special Characters I                        |    Easy    |
+| 3131 | Find the Integer Added to Array I                               |    Easy    |
+| 3151 | Special Array I                                                 |    Easy    |
+| 3162 | Find the Number of Good Pairs I                                 |    Easy    |
+| 3174 | Clear Digits                                                    |    Easy    |
+| 3190 | Find Minimum Operations to Make All Elements Divisible by Three |    Easy    |
+| 3206 | Alternating Groups I                                            |    Easy    |
+| 3280 | Convert Date to Binary                                          |    Easy    |
+| 3442 | Maximum Difference Between Even and Odd Frequency I             |    Easy    |
+| 3452 | Sum of Good Numbers                                             |    Easy    |
 
 ---
 
 ## Medium
 
-| # | Problem | Difficulty |
-|---:|-----------------------------------------------|:---------:|
-| 11 | Container With Most Water | Medium |
-| 15 | 3Sum | Medium |
-| 164 | Maximum Gap | Medium |
-| 167 | Two Sum II - Input Array Is Sorted | Medium |
+|   # | Problem                            | Difficulty |
+| --: | ---------------------------------- | :--------: |
+|  11 | Container With Most Water          |   Medium   |
+|  15 | 3Sum                               |   Medium   |
+| 164 | Maximum Gap                        |   Medium   |
+| 167 | Two Sum II - Input Array Is Sorted |   Medium   |
 
 ---
 
 ## Hard
 
-| # | Problem | Difficulty |
-|---:|-----------------------------------------------|:---------:|
-| 84 | Largest Rectangle in Histogram | Hard |
+|  # | Problem                        | Difficulty |
+| -: | ------------------------------ | :--------: |
+| 84 | Largest Rectangle in Histogram |    Hard    |
 
 ---
 
 # 💡 Topics Covered
 
-- Arrays
-- Strings
-- Hash Map
-- Hash Set
-- Two Pointers
-- Three Pointers
-- Sliding Window
-- Prefix Sum
-- Binary Search
-- Stack & Monotonic Stack
-- Dynamic Programming
-- Mathematics
-- Sorting
-- Greedy Algorithm
-- Kadane's Algorithm
-- Frequency Counting
-- In-place Array Modification
-- Brute Force
-- Optimized Approach
-- Time & Space Complexity Analysis
+* Arrays
+* Strings
+* Hash Map
+* Hash Set
+* Two Pointers
+* Three Pointers
+* Sliding Window
+* Prefix Sum
+* Binary Search
+* Stack & Monotonic Stack
+* Binary Tree
+* Binary Search Tree
+* Recursion
+* String Manipulation
+* Frequency Counting
+* Sorting
+* Greedy Algorithm
+* Dynamic Programming
+* Mathematics
+* Kadane's Algorithm
+* In-place Array Modification
+* Brute Force
+* Optimized Approach
+* Time & Space Complexity Analysis
 
 ---
 
 # 🎯 Goals
 
-- Solve LeetCode problems consistently.
-- Master Data Structures & Algorithms.
-- Strengthen problem-solving and analytical thinking.
-- Prepare for Software Engineering interviews.
-- Build a strong GitHub portfolio.
-- Progress from Easy → Medium → Hard.
+* Solve LeetCode problems consistently.
+* Master Data Structures & Algorithms.
+* Strengthen problem-solving and analytical thinking.
+* Prepare for Software Engineering interviews.
+* Build a strong GitHub portfolio.
+* Progress from Easy → Medium → Hard.
+* Improve knowledge of common DSA patterns and techniques.
 
 ---
 
 # 📊 Progress
 
-| Category | Count |
-|----------|------:|
-| **Total Problems Solved** | **77** |
-| **Easy** | **72** |
-| **Medium** | **4** |
-| **Hard** | **1** |
-| **Language** | JavaScript (ES6+) |
-| **Latest Problem** | **3452 - Sum of Good Numbers** |
+| Category                  |                      Count |
+| ------------------------- | -------------------------: |
+| **Total Problems Solved** |                     **93** |
+| **Easy**                  |                     **88** |
+| **Medium**                |                      **4** |
+| **Hard**                  |                      **1** |
+| **Language**              |          JavaScript (ES6+) |
+| **Latest Problem**        | **463 - Island Perimeter** |
 
 ---
 
 # 🚀 Upcoming Topics
 
-- Advanced Sliding Window
-- Binary Search
-- Monotonic Stack
-- Queue & Deque
-- Linked List
-- Recursion & Backtracking
-- Binary Tree
-- BST
-- Heap (Priority Queue)
-- Graph
-- Dynamic Programming
+* Advanced Sliding Window
+* Binary Search
+* Monotonic Stack
+* Queue & Deque
+* Linked List
+* Recursion & Backtracking
+* Binary Tree
+* BST
+* Heap (Priority Queue)
+* Graph
+* Dynamic Programming
 
 ---
 
@@ -276,10 +313,12 @@ LeetCode-Solutions/
 **Yash Prajapati**
 
 ### GitHub
+
 https://github.com/Yashprajapati710
 
 ### LeetCode
-https://leetcode.com/u/YashPrajapati710/
+
+https://leetcode.com/u/Yash__2005/
 
 ---
 
